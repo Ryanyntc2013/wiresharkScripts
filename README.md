@@ -9,7 +9,9 @@ lua 语法参考 http://www.lua.org/manual/5.4/manual.html#6.4
 
 步骤：
 1. 找到wireshark的init.lua脚本，在其中添加将要编写的脚本文件
+
 如： 在 /Applications/Wireshark.app/Contents/Resources/share/wireshark/init.lua 文件末尾添加
+   
    dofile("/Users/lidf/workspace/luaTest/hello/main.lua")
 2. 编写main.lua脚本
 3. wireshark 载入抓到的包example.pacg
